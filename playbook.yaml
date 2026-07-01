@@ -1,6 +1,5 @@
 ---
 - name: Playbook GUOB
-  hosts: GUOB
 
   tasks:
 
