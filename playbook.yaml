@@ -1,2 +1,8 @@
-- name: Ping
-  ansible.builtin.ping:
+---
+- name: Playbook GUOB
+  hosts: GUOB
+
+  tasks:
+
+    - name: Ping
+      ansible.builtin.ping:
