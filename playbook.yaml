@@ -1,0 +1,8 @@
+---
+- name: Playbook GUOB
+  hosts: servers
+
+  tasks:
+
+    - name: Ping
+      ansible.builtin.ping:
